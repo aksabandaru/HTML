@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"></meta>
+<style>
+fieldset {
+  border-color:navy;
+  background-color:#eeeeee;
+}
+
+</style>
+</head>
+<body>
+<div align = "center">
+	<form>
+	<fieldset>
+<legend style="color:#00BFFF">Student Details</legend>
+	<h3 align="center" style="color:red">Personal Details</h3>
+
+	<label style="color:blue"> Name
+	<input type="text" style="color:blue"  placeholder="enter your name" name="name" value=""></input>
+	</label>
+
+	<p>
+	<label style="color:blue"> Password
+	<input type="password" required placeholder="enter your password" name="password" ></input>
+	</label>
+	<p>
+	
+	<label style="color:blue"> E-mail id
+	<input type="email" name="email" required palceholder="enter your email"></input>
+	</label>
+	</p>
+	<p>
+	
+	<label style="color:blue"> Gender
+	<input type="radio" name="gender" value="male">Male</input>
+	<input type="radio" name="gender" value="female">Female</input>
+	</lable>
+	</p>
+	
+	<label style="color:blue">Contact:
+	<input type="tel" name="number" pattern="[0-9]{10}"></input>
+	</label>
+	<h3 style="color:red">Educational Qualifications</h3>
+	<label style="color:blue">Degree
+	<select name = "userdegree">
+	<option value="">--select Group--</option>
+	<option value="b.sc">B.Sc</option>
+	<option value="b.com">B.com</option>
+	<option value="Bzc">Bzc</option>
+	</select>
+	</label>
+	<p>
+	<label style="color:blue">Engineering
+	<select name="Engineering">
+	<option value="">--select Group--</option>
+	<option value="ece">ECE</option>
+	<option value="eee">EEE</option>
+	<option value="civil">CIVIL</option>
+	</select>
+	</label>
+	</p>
+	<p>
+	<label style="color:blue">Hobbies
+	<input type="checkbox" name="hobbies" value="chess">Palying chess</input>
+	<input type="checkbox" name="hobbies" value="books">Reading books</input>
+	</label>
+	</p>
+	<h3 style="color:red">Address</h3>
+	<p>
+	<textarea rows = "5" cols = "10"></textarea>
+	</p>
+	<p>
+	<label style="color:blue">Attach Resume
+	<input type="file" name="file" vale=""></input>
+	</label>
+	</p>
+	<p>
+	<input style="background-color:green" type="submit"></input>
+	
+
+	</fieldset>
+	</form>
+
+</body>
+</html>
